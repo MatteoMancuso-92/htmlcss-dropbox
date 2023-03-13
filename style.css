@@ -4,3 +4,54 @@
     padding: 0;
 }
 
+:root {
+    --bg-header: rgb(180, 208, 231);
+    --bg-navbar: white;
+    --bg-footer: black;
+}
+
+header {
+	background-color: var(--bg-header);
+    height: 600px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+/* NAV */
+
+.navbar {
+	height: 4rem;
+    background-color: var(--bg-navbar);
+ 
+    
+}
+
+.navbar .container {
+	height: 100%;
+    display: flex;
+
+}
+
+.main-menu {
+    display: flex;
+    
+}
+
+/* MAIN */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5em 2.8em;
+	background-color: blueviolet;
+}
+
+/* FOOTER */
+
+footer {
+    max-width: auto;
+	margin-inline: auto;
+    height: 350px;
+    background-color: var(--bg-footer)
+
+}
