@@ -8,12 +8,16 @@ body {
     margin-top: 80px;
 }
 
+html{
+    font-family: sans-serif;
+
+}
+
 .container-small {
     max-width: 1040px;
     margin-inline: auto;
     padding-inline: 20px;
-    
-
+    background-color: beige;
 }
 
 .container-big {
@@ -21,6 +25,17 @@ body {
     margin-inline: auto;
     padding: 120px;
 }
+
+.container-big2 {
+    margin-top: 20px;
+    max-width: 1200;
+    margin-inline: auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    
+}
+
 
 header {
     background-color: rgb(180, 208, 231);
@@ -120,11 +135,69 @@ header .jumbo img {
     padding-top: 2rem;
 }
 
+/* MAIN */
+
+main {
+    background-color: blue;
+    
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    height: 300px;
+    background-color: brown;
+	border: 2px solid black;
+    
+}
+
+.card2 {
+    height: 300px;
+    background-color: aquamarine;
+    
+}
+
+.section .card {
+    padding: 1rem 1 rem;
+}
+
+.container-small .container1 {
+
+    display: flex;
+}
+
+.card {
+    flex: 0 0 calc(100% / 3);
+	padding: 1rem .5rem;
+}
+
+
 /* FOOTER */
 
 footer {
-    max-width: auto;
-	margin-inline: auto;
-    height: 325px;
-    background-color: black
+    margin-inline: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+
+}
+
+footer h2 {
+    color: white;
+    
+}
+
+footer li {
+    color: white;
+    list-style: none;
+    padding: .5rem 1.5rem;
+}
+
+footer .container-big2 a {
+    text-decoration: none;
+    color: white;
 }
