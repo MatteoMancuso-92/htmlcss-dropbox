@@ -153,8 +153,6 @@ header .jumbo img {
     border: 2px solid black;
     flex: 0 0 calc((100% - 2 * 50px) / 3);
     padding-top: 20px;
-    
-    
 }
 
 .business .card-full {
@@ -191,16 +189,16 @@ header .jumbo img {
 .business .checks li::before {
     list-style: none;
 }
-h2 {
+.business h2 {
     padding-bottom: 20px;
 }
 
-h3 {
+.business h3 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-h4 {
+.business h4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -209,6 +207,67 @@ h4 {
     list-style: none;
     padding-top: 20px;
 }
+
+.business .card-full .contents {
+    display: flex;
+}
+
+.business .card-full .text {
+    flex: 0 0 70%;
+    padding-inline-end: 2rem;
+}
+
+.business .card-full .action {
+    flex: 0 0 30%;
+}
+
+/* PARTNERS */
+
+
+
+.partners .container-small {
+    display: flex;
+    padding-top: 20px;
+    gap: 2rem;
+}
+
+.partners img {
+    min-width: 0;
+    flex: 0 0 60%;
+}
+
+.partners .text {
+    flex: 0 0 calc(40% - 2rem);
+    padding-top: 50px;
+}
+
+
+/* FEATURES */
+
+.features .container-small {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.features h2 {
+    flex: 0 0 100%;
+    padding-top: 50px;
+
+}
+
+
+.features .card {
+    flex: 0 0 calc((100% - 2 * 50px) / 3);
+    padding-top: 20px;
+}
+
+.features img {
+    width: 100%;
+}
+
+
+
 
 /* FOOTER */
 
