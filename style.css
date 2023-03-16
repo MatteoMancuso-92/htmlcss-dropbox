@@ -6,7 +6,6 @@
 
 html{
     font-family: sans-serif;
-
 }
 
 /* CONTAINER */
@@ -34,9 +33,11 @@ html{
     list-style: none;
 }
 
-
-
-
+.container-big3 {
+    max-width: 1200;
+    margin: 0;
+    display: flex;
+}
 
 header {
     background-color: rgb(180, 208, 231);
@@ -175,16 +176,12 @@ header .jumbo img {
 .business .cards .heading,
 .business .cards .contents {
     padding-inline: 40px;
-    
-   
 }
 
 .business .cards .contents {
     padding-top: 40px;
     padding-bottom: 40px;
     list-style-type: none;
-    
-    
 }
 
 .business .card .btn {
@@ -231,12 +228,7 @@ header .jumbo img {
     padding: 1rem;
 }
 
-.container-small .billing  {
-}
-
 /* PARTNERS */
-
-
 
 .partners .container-small {
     display: flex;
@@ -254,7 +246,6 @@ header .jumbo img {
     padding-top: 50px;
 }
 
-
 /* FEATURES */
 
 .features .container-small {
@@ -266,7 +257,6 @@ header .jumbo img {
 .features h2 {
     flex: 0 0 100%;
     padding-top: 50px;
-
 }
 
 .features .card {
@@ -293,7 +283,32 @@ header .jumbo img {
 
 /* MULTI-LOGO */
 
+.square {
+    flex: 0 0 calc(100% / 3);
+    background-color: aquamarine;
+    border: 2px solid black;
+}
 
+/* TRIAL */
+
+.trial {
+    background-color: rgb(180, 208, 231);
+}
+
+.trial .container-small h2 {
+    color: rgb(47%, 28%, 39%);
+}
+
+.trial .container-small {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.trial .container-small .btn {
+    margin-inline: 50px;
+    border-radius: 0%;
+}
 
 /* REQUEST */
 
@@ -306,15 +321,12 @@ header .jumbo img {
     padding-bottom: 30px;
     border-bottom: 1px solid lightgray;
     padding-top: 30px;
-    
-}
-.container-small h2 {
-    padding-bottom: 30px;
-    border-bottom: 1px solid lightgray;
-   
-    
 }
 
+.reuest .container-small h2 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
 
 /* FOOTER */
 
@@ -327,7 +339,6 @@ footer {
 
 footer h2 {
     color: white;
-    
 }
 
 footer li {
