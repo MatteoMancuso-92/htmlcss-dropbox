@@ -289,6 +289,12 @@ header .jumbo img {
     border: 2px solid black;
 }
 
+.square .square1 {
+    display: flex;
+    flex: 0 0 calc(100% / 4);
+}
+
+
 /* TRIAL */
 
 .trial {
